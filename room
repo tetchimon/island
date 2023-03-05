@@ -1,0 +1,5 @@
+import { Application } from '@splinetool/runtime';
+
+const canvas = document.getElementById('canvas3d');
+const app = new Application(canvas);
+app.load('https://prod.spline.design/hMXm8h8m9Tp2mqCJ/scene.splinecode');
